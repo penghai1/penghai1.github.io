@@ -102,19 +102,30 @@ cost=26
 
 
 
-
-
 # 内存瘦身实践
 
-185296
+## String.intern减少字符串重复造成的内存占用
 
-182608
+测试程序如下
 
-997008k
+```java
+    public static void main(String[] args) throws InterruptedException{
+        long start = System.currentTimeMillis();
+        List<String> list = new ArrayList<>();
+        for (int i = 0; i < 10000000; i++) {
+            list.add(new String("bbbbb")); // 这里回在堆生成很多个重复的String对象
+        }
+        System.out.println("cost=" + (System.currentTimeMillis()-start));
 
+        Thread.sleep(1000000);  // 为了方便jps查看内存
+    }
+```
 
+以上代码，由于创建了10000000个String对象，耗时达5240毫秒，（输出结果  cost=5240）内存占用达506452K。（内存查看方法：由于程序会sleep住，此时直接cmd中jps查看java进程ID，然后在windows资源管理器中查看该PID的内存即可）
 
+若将for循环中的 list.add(new String("bbbbb"));修改为list.add("bbbbb");此时执行时间和内存占用都有改善
 
+输出结果  cost=90
 
-31596k
+同时内存占用：144512K
 
