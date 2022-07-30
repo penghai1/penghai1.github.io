@@ -6,6 +6,16 @@
 
 
 
+[Duplicate Objects in Java: Not Just Strings - DZone Java](https://dzone.com/articles/duplicate-objects-in-java-not-just-strings)
+
+[Duplicate Strings: How to Get Rid of Them and Save Memory - DZone Performance](https://dzone.com/articles/duplicate-strings-how-to-get-rid-of-them-and-save)
+
+[JVM Anatomy Quark #10: String.intern()](https://shipilev.net/jvm/anatomy-quarks/10-string-intern/)
+
+[Java中的重复对象：不仅仅是字符串 - 简书](https://www.jianshu.com/p/0b658fdd1c84)
+
+[(26条消息) Java中的重复对象：不仅仅是字符串\_weixin\_43923408的博客-CSDN博客](https://blog.csdn.net/weixin_43923408/article/details/87990199)
+
 
 
 # 高效编码实践
