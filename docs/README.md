@@ -1,4 +1,4 @@
-# IDEA Plugin 开发手册 🔥
+# Create my Blog 🔥
 
 >I am percy, a Java developer
 
