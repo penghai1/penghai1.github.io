@@ -1,5 +1,13 @@
 
 
+# 经典帖子
+
+[Java 性能优化的 55 个细节（珍藏版）](https://baijiahao.baidu.com/s?id=1714704029456338725&wfr=spider&for=pc)
+
+
+
+
+
 # 高效编码实践
 
 ## 1、使用set的contains替代list的contains
