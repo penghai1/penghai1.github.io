@@ -122,6 +122,12 @@ cost=26
 
 # 内存瘦身实践
 
+参考：
+
+[Duplicate Strings: How to Get Rid of Them and Save Memory - DZone Performance](https://dzone.com/articles/duplicate-strings-how-to-get-rid-of-them-and-save)
+
+[Duplicate Objects in Java: Not Just Strings - DZone Java](https://dzone.com/articles/duplicate-objects-in-java-not-just-strings)
+
 ## String.intern减少字符串重复造成的内存占用
 
 测试程序如下
